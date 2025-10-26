@@ -11,7 +11,7 @@ export default function FinalCTA() {
           rel="noopener noreferrer"
           className="inline-block"
         >
-          <button className="bg-[#ADFF2F] hover:bg-[#9BFF00] text-black font-black text-xl md:text-2xl px-12 md:px-16 py-5 md:py-6 rounded-2xl transition-all duration-300 hover:scale-105 shadow-2xl hover:shadow-[0_20px_60px_rgba(173,255,47,0.4)] tracking-tight whitespace-nowrap">
+          <button className="bg-[#ADFF2F] hover:bg-[#9BFF00] text-white font-black text-xl md:text-2xl px-12 md:px-16 py-5 md:py-6 rounded-2xl transition-all duration-300 hover:scale-105 shadow-2xl hover:shadow-[0_20px_60px_rgba(173,255,47,0.4)] tracking-tight whitespace-nowrap uppercase">
             START YOUR FREE TRIAL
           </button>
         </a>

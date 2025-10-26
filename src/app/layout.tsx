@@ -12,21 +12,21 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "SURGE - AI Sports Performance Analysis | Train Smarter",
-  description: "Upload your sports videos and get instant AI-powered technique analysis. Track your progress and improve your game with SURGE.",
+  title: "SURGE+ - AI Sports Performance Analysis | Train Smarter",
+  description: "Upload your sports videos and get instant AI-powered technique analysis. Track your progress and improve your game with SURGE+.",
   keywords: ["AI sports analysis", "video analysis app", "golf swing analysis", "tennis serve analysis", "sports performance tracking", "SURGE", "SURGE+"],
-  authors: [{ name: "SURGE" }],
+  authors: [{ name: "SURGE+" }],
   metadataBase: new URL('https://surge.app'),
   openGraph: {
-    title: "SURGE - AI Sports Performance Analysis",
+    title: "SURGE+ - AI Sports Performance Analysis",
     description: "AI-powered video analysis for athletes. Upload your form, get instant feedback, and track your progress.",
     images: ["/images/surge-og-image.png"],
     type: "website",
-    siteName: "SURGE",
+    siteName: "SURGE+",
   },
   twitter: {
     card: "summary_large_image",
-    title: "SURGE - AI Sports Performance Analysis",
+    title: "SURGE+ - AI Sports Performance Analysis",
     description: "AI-powered video analysis for athletes",
     images: ["/images/surge-og-image.png"],
   },
@@ -34,6 +34,9 @@ export const metadata: Metadata = {
     icon: "/images/surge-icon.png",
     apple: "/images/surge-icon.png",
   },
+};
+
+export const viewport = {
   themeColor: "#ADFF2F",
 };
 

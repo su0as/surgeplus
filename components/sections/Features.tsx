@@ -42,16 +42,16 @@ export default function Features() {
         </div>
 
         {/* Feature Cards */}
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {features.map((feature, index) => (
             <div
               key={index}
-              className="bg-white border-2 border-gray-200 rounded-xl p-8 flex flex-col items-center text-center hover:border-[#ADFF2F] transition-all duration-300 hover:shadow-lg"
+              className="bg-gray-50 rounded-2xl p-8 flex flex-col items-center text-center transition-all duration-300 hover:shadow-xl"
             >
               <div className="flex justify-center items-center mb-6 text-black">
                 {feature.icon}
               </div>
-              <h3 className="text-lg font-black text-black mb-3 tracking-tight w-full">
+              <h3 className="text-base font-black text-black mb-3 tracking-tight w-full uppercase">
                 {feature.title}
               </h3>
               <p className="text-gray-600 text-sm leading-relaxed w-full">

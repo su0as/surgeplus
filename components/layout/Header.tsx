@@ -8,8 +8,8 @@ export default function Header() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <div className="flex items-center space-x-1">
-              <span className="text-green-400 text-2xl font-black">&gt;&gt;&gt;</span>
+            <div className="flex items-center space-x-1.5">
+              <span className="text-[#ADFF2F] text-2xl font-black leading-none">&gt;&gt;&gt;</span>
               <span className="text-2xl font-black text-black tracking-tight">SURGE+</span>
             </div>
           </Link>
@@ -19,7 +19,7 @@ export default function Header() {
             href="https://apps.apple.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#ADFF2F] hover:bg-[#9BFF00] text-black font-bold px-8 py-3 rounded-lg transition-all duration-200 hover:scale-105 shadow-lg"
+            className="bg-[#ADFF2F] hover:bg-[#9BFF00] text-white font-bold uppercase px-8 py-3 rounded-lg transition-all duration-200 hover:scale-105 shadow-lg"
           >
             Download App
           </a>
