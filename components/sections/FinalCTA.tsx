@@ -1,51 +1,34 @@
 import React from 'react';
-import Image from 'next/image';
-import SectionWrapper from '@/components/ui/SectionWrapper';
 
 export default function FinalCTA() {
   return (
-    <SectionWrapper background="dark" className="relative overflow-hidden">
-      <div className="relative z-10 text-center">
-        <h2 className="text-5xl md:text-6xl font-black mb-6">
+    <section className="py-20 md:py-32 bg-[var(--background)] px-6">
+      <div className="max-w-4xl mx-auto text-center space-y-8">
+        <h2 className="text-4xl md:text-5xl font-black text-[var(--foreground)]">
           Ready to stop guessing?
         </h2>
-        <p className="text-2xl md:text-3xl font-bold mb-8 text-white/90">
-          Download SURGE+ and take control
+        
+        <p className="text-lg text-[var(--text-secondary)] max-w-2xl mx-auto">
+          Join thousands reclaiming their athletic potential
         </p>
 
-        {/* App Store Button */}
-        <a
-          href="https://apps.apple.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block mb-6 hover:scale-105 transition-transform duration-200"
-        >
-          <div className="bg-white text-black px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#ADFF2F] transition-colors">
-            Download on the App Store
-          </div>
-        </a>
-
-        <p className="text-white/70 text-sm">
-          Coming soon to Android
-        </p>
-
-        {/* Hero Image with Glow */}
-        <div className="mt-12 flex justify-center">
-          <div className="relative glow-lime">
-            <Image
-              src="/images/surge-icon.png"
-              alt="SURGE App"
-              width={200}
-              height={200}
-              className="rounded-3xl"
-            />
-          </div>
+        {/* App Store Badges */}
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
+          <a
+            href="https://apps.apple.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-transform hover:scale-105"
+          >
+            <div className="bg-black text-white px-6 py-3 rounded-xl font-semibold flex items-center space-x-2">
+              <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 22 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.09997 22C7.78997 22.05 6.79997 20.68 5.95997 19.47C4.24997 17 2.93997 12.45 4.69997 9.39C5.56997 7.87 7.12997 6.91 8.81997 6.88C10.1 6.86 11.32 7.75 12.11 7.75C12.89 7.75 14.37 6.68 15.92 6.84C16.57 6.87 18.39 7.1 19.56 8.82C19.47 8.88 17.39 10.1 17.41 12.63C17.44 15.65 20.06 16.66 20.09 16.67C20.06 16.74 19.67 18.11 18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z"/>
+              </svg>
+              <span>Download on the App Store</span>
+            </div>
+          </a>
         </div>
       </div>
-
-      {/* Decorative Background Elements */}
-      <div className="absolute top-1/2 left-1/4 w-64 h-64 bg-[#ADFF2F] rounded-full blur-[128px] opacity-20 -z-10"></div>
-      <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-[#9BFF00] rounded-full blur-[128px] opacity-10 -z-10"></div>
-    </SectionWrapper>
+    </section>
   );
 }
