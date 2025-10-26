@@ -1,24 +1,24 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap');
 
-/* SURGE Brand Colors */
+/* SURGE+ Brand Colors */
 :root {
   /* Primary Lime Green Accent */
   --surge-lime: #ADFF2F;
-  --surge-lime-light: #CBFF7B;
+  --surge-lime-light: #9BFF00;
   --surge-lime-rgb: 173, 255, 47;
   
-  /* Light Mode Colors - Minimal Cream/Beige */
-  --background: #F5F1E8;
-  --foreground: #1A1A1A;
+  /* Clean White Background */
+  --background: #FFFFFF;
+  --foreground: #000000;
   --card-bg: #FFFFFF;
-  --secondary-bg: #F5F1E8;
-  --tertiary-bg: #EBE7DD;
+  --secondary-bg: #FAFAFA;
+  --tertiary-bg: #F5F5F5;
   
   /* Text Colors */
-  --text-primary: #1A1A1A;
-  --text-secondary: #6B6B6B;
-  --text-tertiary: #A0A0A0;
+  --text-primary: #000000;
+  --text-secondary: #6B7280;
+  --text-tertiary: #9CA3AF;
 }
 
 @theme inline {
