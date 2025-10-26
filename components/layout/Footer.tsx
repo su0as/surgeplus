@@ -11,21 +11,21 @@ export default function Footer() {
 
   return (
     <footer className="bg-white border-t border-gray-100 py-8">
-      <div className="max-w-7xl mx-auto px-6">
-        <div className="flex flex-wrap justify-center items-center gap-8">
+      <div className="w-full flex justify-center px-6">
+        <div className="flex flex-wrap justify-center items-center gap-6 md:gap-8">
           {links.map((link) => (
             <React.Fragment key={link.label}>
               {link.href.startsWith('mailto') || link.href === '#' ? (
                 <a
                   href={link.href}
-                  className="text-sm font-medium text-gray-600 hover:text-black transition-colors"
+                  className="text-sm font-medium text-gray-600 hover:text-black transition-colors whitespace-nowrap"
                 >
                   {link.label}
                 </a>
               ) : (
                 <Link
                   href={link.href}
-                  className="text-sm font-medium text-gray-600 hover:text-black transition-colors"
+                  className="text-sm font-medium text-gray-600 hover:text-black transition-colors whitespace-nowrap"
                 >
                   {link.label}
                 </Link>
