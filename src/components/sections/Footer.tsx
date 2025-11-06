@@ -172,11 +172,9 @@ const Footer: React.FC = () => {
           
           <FooterColumn>
             <ColumnTitle>Legal</ColumnTitle>
-            <FooterLink href="/privacy">Privacy Policy</FooterLink>
-            <FooterLink href="/terms">Terms of Service</FooterLink>
-            <ExternalLink href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'support@surge.app'}`}>
-              Contact
-            </ExternalLink>
+            <FooterLink href="/privacy-policy">Privacy Policy</FooterLink>
+            <FooterLink href="/terms-of-service">Terms of Service</FooterLink>
+            <FooterLink href="/contact">Contact</FooterLink>
           </FooterColumn>
         </FooterContent>
         
