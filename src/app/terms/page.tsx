@@ -78,14 +78,14 @@ export default function TermsOfService() {
       <Container>
         <ContentWrapper>
           <div data-custom-class="body">
-            <div align="center" style={{textAlign: "left"}}>
+            <div style={{textAlign: "left"}}>
               <div className="MsoNormal" data-custom-class="title" style={{lineHeight: 1.5}}>
-                <bdt className="block-component"><span style={{fontSize: "19px"}}></span></bdt>
-                <bdt className="question"><strong><h1>TERMS AND CONDITIONS</h1></strong></bdt>
-                <bdt className="statement-end-if-in-editor"></bdt>
+                <span className="block-component"><span style={{fontSize: "19px"}}></span></span>
+                <span className="question"><strong><h1>TERMS AND CONDITIONS</h1></strong></span>
+                <span className="statement-end-if-in-editor"></span>
               </div>
               <div className="MsoNormal" data-custom-class="subtitle" style={{lineHeight: 1.5}}>
-                <strong>Last updated</strong> <bdt className="question"><strong>November 05, 2025</strong></bdt>
+                <strong>Last updated</strong> <span className="question"><strong>November 05, 2025</strong></span>
               </div>
               <div className="MsoNormal" style={{lineHeight: 1.1}}><br/></div>
               <div style={{lineHeight: 1.5}}><br/></div>
@@ -94,38 +94,38 @@ export default function TermsOfService() {
               </div>
             </div>
             
-            <div align="center" style={{textAlign: "left"}}>
+            <div style={{textAlign: "left"}}>
               <div className="MsoNormal" id="agreement" style={{lineHeight: 1.5}}>
-                <a name="_6aa3gkhykvst"></a>
+                <a id="_6aa3gkhykvst"></a>
               </div>
             </div>
             
-            <div align="center" style={{textAlign: "left"}}>
+            <div style={{textAlign: "left"}}>
               <div className="MsoNormal" data-custom-class="body_text" style={{lineHeight: 1.5}}>
                 <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
-                  We are <bdt className="block-container question question-in-editor" data-id="9d459c4e-c548-e5cb-7729-a118548965d2" data-type="question">Suhas Suren</bdt>
-                  <bdt className="block-component"></bdt>, doing business as <bdt className="question">Surge+</bdt>
-                  <bdt className="block-component"></bdt><bdt className="statement-end-if-in-editor"></bdt> (<bdt className="block-component"></bdt>"<strong>Company</strong>," "<strong>we</strong>," "<strong>us</strong>," "<strong>our</strong>"<bdt className="statement-end-if-in-editor"></bdt>)
+                  We are <span className="block-container question question-in-editor" data-id="9d459c4e-c548-e5cb-7729-a118548965d2" data-type="question">Suhas Suren</span>
+                  <span className="block-component"></span>, doing business as <span className="question">Surge+</span>
+                  <span className="block-component"></span><span className="statement-end-if-in-editor"></span> (<span className="block-component"></span>"<strong>Company</strong>," "<strong>we</strong>," "<strong>us</strong>," "<strong>our</strong>"<span className="statement-end-if-in-editor"></span>)
                   <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
                     <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
                       <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
-                        <bdt className="question"><bdt className="block-component"></bdt></bdt>
+                        <span className="question"><span className="block-component"></span></span>
                         <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
-                          <bdt className="block-component"></bdt>
-                        </span>, a company registered in<bdt className="block-component"></bdt><bdt className="block-component"></bdt> <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
+                          <span className="block-component"></span>
+                        </span>, a company registered in<span className="block-component"></span><span className="block-component"></span> <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
                           <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
-                            <bdt className="question">India</bdt>
-                            <bdt className="statement-end-if-in-editor">
+                            <span className="question">India</span>
+                            <span className="statement-end-if-in-editor">
                               <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
                                 <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
-                                  <bdt className="statement-end-if-in-editor"></bdt>
+                                  <span className="statement-end-if-in-editor"></span>
                                 </span>
                               </span>
-                            </bdt>
+                            </span>
                           </span>
-                        </span> at <bdt className="question">Bhudigere Cross</bdt><bdt className="block-component"></bdt>
+                        </span> at <span className="question">Bhudigere Cross</span><span className="block-component"></span>
                       </span>
-                    </span>, <bdt className="question">Bengaluru</bdt>
+                    </span>, <span className="question">Bengaluru</span>
                   </span>
                 </span>
                 <span style={{fontSize: "15px"}}>
@@ -133,10 +133,10 @@ export default function TermsOfService() {
                     <span style={{fontSize: "15px"}}>
                       <span data-custom-class="body_text">
                         <span style={{color: "rgb(89, 89, 89)"}}>
-                          <bdt className="block-component"></bdt>, <bdt className="question">Karnataka</bdt>
-                          <bdt className="statement-end-if-in-editor"></bdt>
-                          <bdt className="block-component"></bdt> <bdt className="question">560067</bdt>
-                          <bdt className="statement-end-if-in-editor"></bdt>
+                          <span className="block-component"></span>, <span className="question">Karnataka</span>
+                          <span className="statement-end-if-in-editor"></span>
+                          <span className="block-component"></span> <span className="question">560067</span>
+                          <span className="statement-end-if-in-editor"></span>
                         </span>
                       </span>
                     </span>
@@ -144,33 +144,33 @@ export default function TermsOfService() {
                 </span>
                 <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
                   <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
-                    <bdt className="else-block"></bdt>
+                    <span className="else-block"></span>
                   </span>
                 </span>
-                <bdt className="statement-end-if-in-editor">.</bdt>
-                <bdt className="block-component"></bdt>
+                <span className="statement-end-if-in-editor">.</span>
+                <span className="block-component"></span>
               </div>
             </div>
             
-            <div align="center" style={{lineHeight: 1}}><br/></div>
+            <div style={{lineHeight: 1}}><br/></div>
             
-            <div align="center" style={{textAlign: "left"}}>
+            <div style={{textAlign: "left"}}>
               <div className="MsoNormal" data-custom-class="body_text" style={{lineHeight: 1.5}}>
                 <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
-                  We operate <bdt className="block-component"></bdt>the website <span style={{color: "rgb(0, 58, 250)"}}>
-                    <bdt className="question"><a target="_blank" data-custom-class="link" href="http://www.surgeplus.app">http://www.surgeplus.app</a></bdt>
-                  </span> (the <bdt className="block-component"></bdt>"<strong>Site</strong>"<bdt className="statement-end-if-in-editor"></bdt>)
-                  <bdt className="block-component"></bdt>, <bdt className="statement-end-if-in-editor"></bdt>
-                  <bdt className="block-component"></bdt>the mobile application <bdt className="question">Surge+</bdt> (the <bdt className="block-component"></bdt>"<strong>App</strong>"<bdt className="statement-end-if-in-editor"></bdt>)
-                  <bdt className="statement-end-if-in-editor"></bdt>, as well as any other related products and services that refer or link to these legal terms (the <bdt className="block-component"></bdt>"<strong>Legal Terms</strong>"<bdt className="statement-end-if-in-editor"></bdt>) (collectively, the <bdt className="block-component"></bdt>"<strong>Services</strong>"<bdt className="statement-end-if-in-editor"></bdt>).
-                  <bdt className="block-component"></bdt>
+                  We operate <span className="block-component"></span>the website <span style={{color: "rgb(0, 58, 250)"}}>
+                    <span className="question"><a target="_blank" data-custom-class="link" href="http://www.surgeplus.app">http://www.surgeplus.app</a></span>
+                  </span> (the <span className="block-component"></span>"<strong>Site</strong>"<span className="statement-end-if-in-editor"></span>)
+                  <span className="block-component"></span>, <span className="statement-end-if-in-editor"></span>
+                  <span className="block-component"></span>the mobile application <span className="question">Surge+</span> (the <span className="block-component"></span>"<strong>App</strong>"<span className="statement-end-if-in-editor"></span>)
+                  <span className="statement-end-if-in-editor"></span>, as well as any other related products and services that refer or link to these legal terms (the <span className="block-component"></span>"<strong>Legal Terms</strong>"<span className="statement-end-if-in-editor"></span>) (collectively, the <span className="block-component"></span>"<strong>Services</strong>"<span className="statement-end-if-in-editor"></span>).
+                  <span className="block-component"></span>
                 </span>
               </div>
               
               <div className="MsoNormal" style={{lineHeight: 1}}><br/></div>
               
               <div className="MsoNormal" data-custom-class="body_text" style={{lineHeight: 1.5}}>
-                <bdt className="question">1. Description of Service<br/><br/>
+                <span className="question">1. Description of Service<br/><br/>
 
 SURGE+ ("the App") is a mobile application that provides sports performance analysis using artificial intelligence. The services ("Service") include, but are not limited to:<br/><br/>
 
@@ -192,12 +192,12 @@ AI Analysis Disclaimer: The "Analysis" (including the "SURGE+ Score") provided b
 
 3. Service "As Is"<br/><br/>
 
-The Service is provided on an "as is" and "as available" basis. SURGE+ makes no warranties (express or implied) regarding the reliability, accuracy, or availability of the Service. We do not guarantee that your use of the Service will result in any specific athletic improvement or outcome.</bdt>
+The Service is provided on an "as is" and "as available" basis. SURGE+ makes no warranties (express or implied) regarding the reliability, accuracy, or availability of the Service. We do not guarantee that your use of the Service will result in any specific athletic improvement or outcome.</span>
               </div>
               
               <div className="MsoNormal" data-custom-class="body_text" style={{lineHeight: 1.5}}>
                 <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
-                  <bdt className="statement-end-if-in-editor"></bdt>
+                  <span className="statement-end-if-in-editor"></span>
                 </span>
               </div>
               
@@ -205,18 +205,18 @@ The Service is provided on an "as is" and "as available" basis. SURGE+ makes no 
               
               <div className="MsoNormal" data-custom-class="body_text" style={{lineHeight: 1.5}}>
                 <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
-                  You can contact us by <bdt className="block-component"></bdt>phone at <bdt className="question">+91 6360855691</bdt>, email at <bdt className="question"><a target="_blank" data-custom-class="link" href="mailto:support@surgeplus.app">support@surgeplus.app</a></bdt>
-                  <bdt className="block-component"></bdt>,<bdt className="statement-end-if-in-editor"></bdt> or by mail to <bdt className="question">Bhudigere Cross</bdt>
-                  <bdt className="block-component"></bdt>, <bdt className="question">Bengaluru</bdt>
-                  <bdt className="block-component"></bdt>, <bdt className="question">Karnataka</bdt>
-                  <bdt className="statement-end-if-in-editor"></bdt>
-                  <bdt className="block-component"></bdt> <bdt className="question">560067</bdt>
-                  <bdt className="statement-end-if-in-editor"></bdt>
-                  <bdt className="block-component">
-                    <bdt className="block-component">, </bdt>
-                    <bdt className="question">India</bdt>
-                    <bdt className="statement-end-if-in-editor"></bdt>
-                  </bdt>.
+                  You can contact us by <span className="block-component"></span>phone at <span className="question">+91 6360855691</span>, email at <span className="question"><a target="_blank" data-custom-class="link" href="mailto:support@surgeplus.app">support@surgeplus.app</a></span>
+                  <span className="block-component"></span>,<span className="statement-end-if-in-editor"></span> or by mail to <span className="question">Bhudigere Cross</span>
+                  <span className="block-component"></span>, <span className="question">Bengaluru</span>
+                  <span className="block-component"></span>, <span className="question">Karnataka</span>
+                  <span className="statement-end-if-in-editor"></span>
+                  <span className="block-component"></span> <span className="question">560067</span>
+                  <span className="statement-end-if-in-editor"></span>
+                  <span className="block-component">
+                    <span className="block-component">, </span>
+                    <span className="question">India</span>
+                    <span className="statement-end-if-in-editor"></span>
+                  </span>.
                 </span>
               </div>
               
@@ -224,8 +224,8 @@ The Service is provided on an "as is" and "as available" basis. SURGE+ makes no 
               
               <div className="MsoNormal" data-custom-class="body_text" style={{lineHeight: 1.5}}>
                 <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
-                  These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity (<bdt className="block-component"></bdt>"<strong>you</strong>"<bdt className="statement-end-if-in-editor"></bdt>), and <bdt className="question">Suhas Suren</bdt>, concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms. IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.
-                  <bdt className="block-component"></bdt><bdt className="block-component"></bdt>
+                  These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity (<span className="block-component"></span>"<strong>you</strong>"<span className="statement-end-if-in-editor"></span>), and <span className="question">Suhas Suren</span>, concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms. IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.
+                  <span className="block-component"></span><span className="block-component"></span>
                 </span>
               </div>
               
@@ -233,15 +233,15 @@ The Service is provided on an "as is" and "as available" basis. SURGE+ makes no 
               
               <div className="MsoNormal" data-custom-class="body_text" style={{lineHeight: 1.5}}>
                 <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
-                  We will provide you with prior notice of any scheduled changes to the Services you are using. The modified Legal Terms will become effective upon posting or notifying you by <bdt className="question"><a target="_blank" data-custom-class="link" href="mailto:support@surgeplus.app">support@surgeplus.app</a></bdt>, as stated in the email message. By continuing to use the Services after the effective date of any changes, you agree to be bound by the modified terms.
-                  <bdt className="block-component"></bdt><bdt className="statement-end-if-in-editor"></bdt>
+                  We will provide you with prior notice of any scheduled changes to the Services you are using. The modified Legal Terms will become effective upon posting or notifying you by <span className="question"><a target="_blank" data-custom-class="link" href="mailto:support@surgeplus.app">support@surgeplus.app</a></span>, as stated in the email message. By continuing to use the Services after the effective date of any changes, you agree to be bound by the modified terms.
+                  <span className="block-component"></span><span className="statement-end-if-in-editor"></span>
                 </span>
               </div>
             </div>
             
-            <div align="center" style={{lineHeight: 1}}><br/></div>
+            <div style={{lineHeight: 1}}><br/></div>
             
-            <div align="center" style={{textAlign: "left"}}>
+            <div style={{textAlign: "left"}}>
               <div className="MsoNormal" data-custom-class="body_text" style={{lineHeight: 1.5}}>
                 <span style={{fontSize: "11pt", lineHeight: "16.8667px", color: "rgb(89, 89, 89)"}}>
                   <span style={{color: "rgb(89, 89, 89)", fontSize: "14.6667px"}}>The Services are intended for users who are at least 13 years of age. All users who are minors in the jurisdiction in which they reside (generally under the age of 18) must have the permission of, and be directly supervised by, their parent or guardian to use the Services. If you are a minor, you must have your parent or guardian read and agree to these Legal Terms prior to you using the Services.</span>
@@ -291,8 +291,8 @@ The Service is provided on an "as is" and "as available" basis. SURGE+ makes no 
               <div className="MsoNormal" data-custom-class="body_text" style={{lineHeight: 1.5}}>
                 <span style={{fontSize: "15px"}}>
                   <span style={{color: "rgb(89, 89, 89)"}}>
-                    <bdt className="question"><strong>Suhas Suren</strong></bdt>
-                    <strong><bdt className="block-component"></bdt></strong>
+                    <span className="question"><strong>Suhas Suren</strong></span>
+                    <strong><span className="block-component"></span></strong>
                   </span>
                 </span>
               </div>
@@ -300,9 +300,9 @@ The Service is provided on an "as is" and "as available" basis. SURGE+ makes no 
               <div className="MsoNormal" data-custom-class="body_text" style={{lineHeight: 1.5}}>
                 <span style={{fontSize: "15px"}}>
                   <span style={{lineHeight: "115%", fontFamily: "Arial", color: "rgb(89, 89, 89)"}}>
-                    <bdt className="question"><strong><bdt className="question">Bhudigere Cross</bdt></strong></bdt>
-                    <bdt className="statement-end-if-in-editor"></bdt>
-                    <bdt className="block-component"></bdt>
+                    <span className="question"><strong><span className="question">Bhudigere Cross</span></strong></span>
+                    <span className="statement-end-if-in-editor"></span>
+                    <span className="block-component"></span>
                   </span>
                 </span>
               </div>
@@ -311,40 +311,40 @@ The Service is provided on an "as is" and "as available" basis. SURGE+ makes no 
                 <span style={{fontSize: "15px"}}>
                   <strong>
                     <span style={{color: "rgb(89, 89, 89)"}}>
-                      <bdt className="question">
-                        <bdt className="block-component"></bdt>
-                        <bdt className="question">Bengaluru</bdt>
-                        <bdt className="statement-end-if-in-editor"></bdt>
-                      </bdt>
-                      <bdt className="block-component"></bdt>, <bdt className="question">Karnataka</bdt>
-                      <bdt className="statement-end-if-in-editor"></bdt>
-                      <bdt className="block-component"></bdt> <bdt className="question">560067</bdt>
-                      <bdt className="statement-end-if-in-editor"></bdt>
+                      <span className="question">
+                        <span className="block-component"></span>
+                        <span className="question">Bengaluru</span>
+                        <span className="statement-end-if-in-editor"></span>
+                      </span>
+                      <span className="block-component"></span>, <span className="question">Karnataka</span>
+                      <span className="statement-end-if-in-editor"></span>
+                      <span className="block-component"></span> <span className="question">560067</span>
+                      <span className="statement-end-if-in-editor"></span>
                     </span>
                   </strong>
                   <strong>
                     <span style={{color: "rgb(89, 89, 89)"}}>
-                      <bdt className="block-component"></bdt>
+                      <span className="block-component"></span>
                     </span>
-                    <bdt className="block-component"></bdt>
+                    <span className="block-component"></span>
                   </strong>
                 </span>
               </div>
               
               <div className="MsoNormal" data-custom-class="body_text" style={{lineHeight: 1.5}}>
-                <bdt className="block-component"><strong></strong></bdt>
-                <bdt className="question">India</bdt>
-                <bdt className="statement-end-if-in-editor"></bdt>
-                <bdt className="statement-end-if-in-editor"></bdt>
-                <bdt className="statement-end-if-in-editor"><strong></strong></bdt>
+                <span className="block-component"><strong></strong></span>
+                <span className="question">India</span>
+                <span className="statement-end-if-in-editor"></span>
+                <span className="statement-end-if-in-editor"></span>
+                <span className="statement-end-if-in-editor"><strong></strong></span>
               </div>
               
               <div className="MsoNormal" data-custom-class="body_text" style={{lineHeight: 1.5}}>
                 <strong>
                   <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
                     <strong>
-                      <bdt className="block-component"></bdt>Phone: <bdt className="question">+91 6360855691</bdt>
-                      <bdt className="statement-end-if-in-editor"></bdt>
+                      <span className="block-component"></span>Phone: <span className="question">+91 6360855691</span>
+                      <span className="statement-end-if-in-editor"></span>
                     </strong>
                   </span>
                 </strong>
@@ -354,11 +354,11 @@ The Service is provided on an "as is" and "as available" basis. SURGE+ makes no 
                 <strong>
                   <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
                     <strong>
-                      <bdt className="question">
-                        <bdt className="block-component"></bdt>
-                        <bdt className="question"><a target="_blank" data-custom-class="link" href="mailto:support@surgeplus.app">support@surgeplus.app</a></bdt>
-                        <bdt className="statement-end-if-in-editor"></bdt>
-                      </bdt>
+                      <span className="question">
+                        <span className="block-component"></span>
+                        <span className="question"><a target="_blank" data-custom-class="link" href="mailto:support@surgeplus.app">support@surgeplus.app</a></span>
+                        <span className="statement-end-if-in-editor"></span>
+                      </span>
                     </strong>
                   </span>
                 </strong>
