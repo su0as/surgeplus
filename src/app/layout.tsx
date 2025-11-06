@@ -3,6 +3,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/lib/ThemeProvider";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import LoadingScreen from "@/components/LoadingScreen";
 
 const poppins = Poppins({
   weight: ['400', '600', '700', '900'],
@@ -94,8 +95,18 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+        <style dangerouslySetInnerHTML={{
+          __html: `
+            body {
+              background: #000000;
+              margin: 0;
+              padding: 0;
+            }
+          `
+        }} />
       </head>
       <body className="antialiased" suppressHydrationWarning>
+        <LoadingScreen />
         <ThemeProvider>
           {children}
         </ThemeProvider>
