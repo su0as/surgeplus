@@ -107,7 +107,7 @@ const Headline = styled.h1`
 
 const PlayerImage = styled.img<{ $isVisible: boolean }>`
   position: absolute;
-  width: clamp(120px, 15vw, 200px);
+  width: clamp(180px, 20vw, 280px);
   height: auto;
   background: transparent;
   opacity: ${props => props.$isVisible ? 1 : 0};
@@ -116,12 +116,12 @@ const PlayerImage = styled.img<{ $isVisible: boolean }>`
   pointer-events: none;
   
   @media (max-width: 767px) {
-    width: clamp(60px, 15vw, 90px);
-    max-width: 90px;
+    width: clamp(120px, 25vw, 160px);
+    max-width: 160px;
   }
   
   @media (min-width: 768px) and (max-width: 1023px) {
-    width: clamp(100px, 18vw, 160px);
+    width: clamp(150px, 22vw, 220px);
   }
 `;
 
