@@ -17,6 +17,10 @@ const FooterSection = styled.footer`
   align-items: center;
   justify-content: center;
   
+  @media (max-width: 767px) {
+    padding: 16px 0;
+  }
+  
   @media (min-width: 768px) {
     padding: 32px 0;
   }
@@ -33,6 +37,12 @@ const Container = styled.div`
   padding: 0 16px;
   position: relative;
   
+  @media (max-width: 767px) {
+    flex-direction: column;
+    gap: 12px;
+    padding: 0 12px;
+  }
+  
   @media (min-width: 768px) {
     padding: 0 32px;
   }
@@ -45,6 +55,12 @@ const LogoWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  
+  @media (max-width: 767px) {
+    position: static;
+    transform: none;
+    order: 1;
+  }
 `;
 
 const FooterLeftLinks = styled.nav`
@@ -52,6 +68,14 @@ const FooterLeftLinks = styled.nav`
   align-items: center;
   gap: 16px;
   flex-wrap: wrap;
+  
+  @media (max-width: 767px) {
+    flex-direction: column;
+    gap: 8px;
+    order: 2;
+    width: 100%;
+    text-align: center;
+  }
   
   @media (min-width: 768px) {
     gap: 24px;
@@ -61,6 +85,12 @@ const FooterLeftLinks = styled.nav`
 const FooterRightContent = styled.div`
   display: flex;
   align-items: center;
+  
+  @media (max-width: 767px) {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+  }
 `;
 
 const Copyright = styled.p`
@@ -69,6 +99,11 @@ const Copyright = styled.p`
   margin: 0;
   text-align: center;
   font-family: 'Poppins', sans-serif;
+  
+  @media (max-width: 767px) {
+    font-size: 12px;
+    text-align: center;
+  }
   
   @media (min-width: 768px) {
     font-size: 14px;
@@ -83,9 +118,20 @@ const FooterLink = styled(Link)`
   text-decoration: none;
   transition: color 0.2s ease;
   font-family: 'Poppins', sans-serif;
+  padding: 8px 12px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  @media (max-width: 767px) {
+    font-size: 14px;
+    min-width: 120px;
+  }
   
   @media (min-width: 768px) {
     font-size: 14px;
+    padding: 4px 8px;
   }
   
   &:hover {

@@ -42,12 +42,18 @@ const HeroSection = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: calc(100vh - 140px);
+  min-height: calc(100vh - 140px);
+  height: auto;
   background: #FFFFFF;
   padding: 32px 16px 16px;
   text-align: center;
   overflow: hidden;
   position: relative;
+  
+  @media (max-width: 767px) {
+    min-height: calc(100vh - 100px);
+    padding: 24px 12px 12px;
+  }
   
   @media (min-width: 768px) {
     padding: 40px 24px 20px;
@@ -88,6 +94,15 @@ const Headline = styled.h1`
   white-space: nowrap;
   position: relative;
   z-index: 1;
+  
+  @media (max-width: 767px) {
+    font-size: clamp(32px, 12vw, 48px);
+    white-space: normal;
+    line-height: 1.1;
+    text-align: center;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
 `;
 
 const PlayerImage = styled.img<{ $isVisible: boolean }>`
@@ -101,7 +116,8 @@ const PlayerImage = styled.img<{ $isVisible: boolean }>`
   pointer-events: none;
   
   @media (max-width: 767px) {
-    width: clamp(80px, 20vw, 120px);
+    width: clamp(60px, 15vw, 90px);
+    max-width: 90px;
   }
   
   @media (min-width: 768px) and (max-width: 1023px) {
@@ -148,6 +164,24 @@ const SubHeadline = styled.p`
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  
+  @media (max-width: 767px) {
+    font-size: 14px;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+    max-width: 100%;
+    padding: 0 16px;
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    font-size: 16px;
+    white-space: normal;
+    overflow: visible;
+    padding: 0 24px;
+  }
 `;
 
 

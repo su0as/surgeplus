@@ -37,6 +37,15 @@ const StyledButton = styled.button<{
   white-space: nowrap;
   opacity: ${({ $disabled }) => ($disabled ? 0.6 : 1)};
   width: ${({ $fullWidth }) => ($fullWidth ? '100%' : 'auto')};
+  min-width: 120px;
+  min-height: 44px;
+  
+  @media (max-width: 767px) {
+    white-space: normal;
+    text-align: center;
+    min-width: 140px;
+    padding: 12px 24px !important;
+  }
   
   /* Size variations */
   ${({ $size, theme }) => {
@@ -46,18 +55,35 @@ const StyledButton = styled.button<{
           height: ${theme.components.button.height.small};
           padding: ${theme.components.button.padding.small};
           font-size: ${theme.typography.fontSize.sm};
+          
+          @media (max-width: 767px) {
+            min-height: 44px;
+            padding: 10px 20px;
+            font-size: ${theme.typography.fontSize.sm};
+          }
         `;
       case 'large':
         return `
           height: ${theme.components.button.height.large};
           padding: ${theme.components.button.padding.large};
           font-size: ${theme.typography.fontSize.lg};
+          
+          @media (max-width: 767px) {
+            min-height: 48px;
+            padding: 14px 28px;
+            font-size: ${theme.typography.fontSize.base};
+          }
         `;
       default:
         return `
           height: ${theme.components.button.height.medium};
           padding: ${theme.components.button.padding.medium};
           font-size: ${theme.typography.fontSize.base};
+          
+          @media (max-width: 767px) {
+            min-height: 44px;
+            padding: 12px 24px;
+          }
         `;
     }
   }}

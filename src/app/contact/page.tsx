@@ -8,6 +8,10 @@ const Container = styled.div`
   margin: 0 auto;
   padding: 80px 16px;
   
+  @media (max-width: 767px) {
+    padding: 40px 16px 120px;
+  }
+  
   @media (min-width: 768px) {
     padding: 120px 24px;
   }
@@ -21,19 +25,29 @@ const Header = styled.div`
 const Title = styled.h1`
   font-size: 48px;
   font-weight: 900;
-  color: #FFFFFF;
+  color: #0A0A0A;
   margin-bottom: 16px;
   
-  @media (max-width: 768px) {
-    font-size: 36px;
+  @media (max-width: 767px) {
+    font-size: 32px;
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    font-size: 40px;
   }
 `;
 
 const Subtitle = styled.p`
   font-size: 18px;
-  color: #9CA3AF;
+  color: #666666;
   max-width: 600px;
   margin: 0 auto;
+  line-height: 1.6;
+  
+  @media (max-width: 767px) {
+    font-size: 16px;
+    padding: 0 8px;
+  }
 `;
 
 const ContactGrid = styled.div`
@@ -42,17 +56,27 @@ const ContactGrid = styled.div`
   gap: 32px;
   margin-bottom: 64px;
   
+  @media (max-width: 767px) {
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
   @media (min-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
   }
 `;
 
 const ContactCard = styled.div`
-  background: #0A0A0A;
-  border: 1px solid #1A1A1A;
+  background: #FFFFFF;
+  border: 1px solid #E5E7EB;
   border-radius: 16px;
   padding: 32px;
   transition: all 0.3s ease;
+  
+  @media (max-width: 767px) {
+    padding: 24px;
+    border-radius: 12px;
+  }
   
   &:hover {
     border-color: #ADFF2F;
@@ -80,19 +104,30 @@ const CardIcon = styled.div`
 const CardTitle = styled.h3`
   font-size: 20px;
   font-weight: 700;
-  color: #FFFFFF;
+  color: #0A0A0A;
   margin-bottom: 8px;
+  
+  @media (max-width: 767px) {
+    font-size: 18px;
+  }
 `;
 
 const CardContent = styled.div`
   font-size: 16px;
-  color: #9CA3AF;
+  color: #666666;
   line-height: 1.6;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  
+  @media (max-width: 767px) {
+    font-size: 15px;
+  }
   
   a {
-    color: #ADFF2F;
+    color: #9BFF00;
     text-decoration: none;
     transition: opacity 0.2s ease;
+    word-break: break-all;
     
     &:hover {
       opacity: 0.8;
@@ -101,29 +136,44 @@ const CardContent = styled.div`
 `;
 
 const InfoSection = styled.div`
-  background: #0A0A0A;
-  border: 1px solid #1A1A1A;
+  background: #FFFFFF;
+  border: 1px solid #E5E7EB;
   border-radius: 16px;
   padding: 48px 32px;
   text-align: center;
+  
+  @media (max-width: 767px) {
+    padding: 32px 24px;
+    border-radius: 12px;
+  }
 `;
 
 const InfoTitle = styled.h2`
   font-size: 32px;
   font-weight: 700;
-  color: #FFFFFF;
+  color: #0A0A0A;
   margin-bottom: 24px;
+  
+  @media (max-width: 767px) {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
 `;
 
 const CompanyInfo = styled.div`
   max-width: 600px;
   margin: 0 auto;
-  color: #9CA3AF;
+  color: #666666;
   line-height: 1.8;
   font-size: 16px;
   
+  @media (max-width: 767px) {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  
   strong {
-    color: #FFFFFF;
+    color: #0A0A0A;
     display: block;
     margin-top: 16px;
   }
