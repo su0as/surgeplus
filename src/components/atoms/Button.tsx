@@ -68,7 +68,7 @@ const StyledButton = styled.button<{
       case 'secondary':
         return `
           background: ${theme.colors.black};
-          color: ${theme.colors.white};
+          color: #9BFF00;
           
           ${!$disabled && `
             &:hover {

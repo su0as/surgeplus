@@ -71,9 +71,9 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/images/surge-icon.png",
-    shortcut: "/images/surge-icon.png",
-    apple: "/images/surge-icon.png",
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
   },
   manifest: "/manifest.json",
 };
@@ -98,7 +98,7 @@ export default function RootLayout({
         <style dangerouslySetInnerHTML={{
           __html: `
             body {
-              background: #000000;
+              background: #FFFFFF;
               margin: 0;
               padding: 0;
             }
