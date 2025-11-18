@@ -51,8 +51,8 @@ const HeroSection = styled.section`
   position: relative;
   
   @media (max-width: 767px) {
-    min-height: calc(100vh - 100px);
-    padding: 24px 12px 12px;
+    min-height: 100vh;
+    padding: 24px 12px 180px;
   }
   
   @media (min-width: 768px) {
@@ -136,6 +136,11 @@ const LowerContent = styled.div`
   left: 50%;
   transform: translateX(-50%);
   z-index: 10;
+  
+  @media (max-width: 767px) {
+    bottom: 180px;
+    gap: 16px;
+  }
   
   @media (min-width: 768px) {
     gap: 16px;
