@@ -42,25 +42,25 @@ const HeroSection = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: calc(100vh - 140px);
+  min-height: 100vh;
   height: auto;
   background: #FFFFFF;
-  padding: 32px 16px 16px;
+  padding: 32px 16px 40px;
   text-align: center;
   overflow: hidden;
   position: relative;
   
   @media (max-width: 767px) {
     min-height: 100vh;
-    padding: 24px 12px 180px;
+    padding: 24px 12px 40px;
   }
   
   @media (min-width: 768px) {
-    padding: 40px 24px 20px;
+    padding: 40px 24px 40px;
   }
   
   @media (min-width: 1024px) {
-    padding: 48px 32px 24px;
+    padding: 48px 32px 40px;
   }
 `;
 
@@ -132,13 +132,13 @@ const LowerContent = styled.div`
   gap: 12px;
   width: 100%;
   position: absolute;
-  bottom: 32px;
+  bottom: 40px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 10;
   
   @media (max-width: 767px) {
-    bottom: 180px;
+    bottom: 40px;
     gap: 16px;
   }
   

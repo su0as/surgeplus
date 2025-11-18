@@ -6,19 +6,20 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const FooterSection = styled.footer`
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  position: relative;
+  bottom: auto;
+  left: auto;
+  right: auto;
   background: #FFFFFF;
   padding: 24px 0;
   z-index: 100;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-top: 1px solid #E5E7EB;
   
   @media (max-width: 767px) {
-    padding: 16px 0;
+    padding: 24px 0;
   }
   
   @media (min-width: 768px) {

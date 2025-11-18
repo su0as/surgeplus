@@ -9,7 +9,7 @@ const Container = styled.div`
   padding: 80px 16px;
   
   @media (max-width: 767px) {
-    padding: 40px 16px 120px;
+    padding: 40px 16px;
   }
   
   @media (min-width: 768px) {

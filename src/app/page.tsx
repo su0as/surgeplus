@@ -4,7 +4,7 @@ import Footer from '@/components/sections/Footer';
 export default function Home() {
   return (
     <>
-      <main id="main-content" style={{ height: '100vh', overflow: 'hidden' }}>
+      <main id="main-content">
         <Hero />
       </main>
       <Footer />
