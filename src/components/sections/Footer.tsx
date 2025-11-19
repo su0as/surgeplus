@@ -7,132 +7,122 @@ import Image from 'next/image';
 
 const FooterSection = styled.footer`
   position: relative;
-  bottom: auto;
-  left: auto;
-  right: auto;
   background: #FFFFFF;
-  padding: 24px 0;
+  min-height: 15vh;
   z-index: 100;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border-top: 1px solid #E5E7EB;
+`;
+
+const BentoGrid = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 100%;
+  min-height: 15vh;
   
   @media (max-width: 767px) {
-    padding: 24px 0;
-  }
-  
-  @media (min-width: 768px) {
-    padding: 32px 0;
+    grid-template-columns: 1fr;
+    min-height: auto;
   }
 `;
 
-const Container = styled.div`
-  width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
+const BentoBox = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 16px;
-  position: relative;
+  justify-content: center;
+  padding: 24px;
+  border-right: 1px solid #E5E7EB;
   
-  @media (max-width: 767px) {
-    flex-direction: column;
-    gap: 12px;
-    padding: 0 12px;
+  &:last-child {
+    border-right: none;
   }
   
-  @media (min-width: 768px) {
-    padding: 0 32px;
+  @media (max-width: 767px) {
+    border-right: none;
+    border-bottom: 1px solid #E5E7EB;
+    padding: 20px;
+    
+    &:last-child {
+      border-bottom: none;
+    }
   }
 `;
 
 const LogoWrapper = styled.div`
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
   display: flex;
   justify-content: center;
   align-items: center;
+`;
+
+const SportsSection = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+`;
+
+const SportsLabel = styled.p`
+  font-size: 14px;
+  font-weight: 600;
+  color: #0A0A0A;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
   
   @media (max-width: 767px) {
-    position: static;
-    transform: none;
-    order: 1;
+    font-size: 13px;
   }
 `;
 
-const FooterLeftLinks = styled.nav`
+const SportsIcons = styled.div`
   display: flex;
-  align-items: center;
   gap: 16px;
-  flex-wrap: wrap;
+  font-size: 32px;
+  
+  @media (max-width: 767px) {
+    gap: 12px;
+    font-size: 28px;
+  }
+`;
+
+const LinksSection = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+`;
+
+const LinksLabel = styled.p`
+  font-size: 14px;
+  font-weight: 600;
+  color: #0A0A0A;
+  margin: 0 0 4px 0;
+  font-family: 'Poppins', sans-serif;
+  
+  @media (max-width: 767px) {
+    font-size: 13px;
+  }
+`;
+
+const LinksList = styled.div`
+  display: flex;
+  gap: 16px;
   
   @media (max-width: 767px) {
     flex-direction: column;
     gap: 8px;
-    order: 2;
-    width: 100%;
-    text-align: center;
-  }
-  
-  @media (min-width: 768px) {
-    gap: 24px;
+    align-items: center;
   }
 `;
 
-const FooterRightContent = styled.div`
-  display: flex;
-  align-items: center;
-  
-  @media (max-width: 767px) {
-    order: 3;
-    width: 100%;
-    justify-content: center;
-  }
-`;
-
-const Copyright = styled.p`
-  font-size: 12px;
-  color: #666666;
-  margin: 0;
-  text-align: center;
+const FooterLink = styled(Link)`
+  font-size: 13px;
+  color: #6B7280;
+  text-decoration: none;
+  transition: color 0.2s ease;
   font-family: 'Poppins', sans-serif;
   
   @media (max-width: 767px) {
     font-size: 12px;
-    text-align: center;
-  }
-  
-  @media (min-width: 768px) {
-    font-size: 14px;
-    text-align: right;
-  }
-`;
-
-
-const FooterLink = styled(Link)`
-  font-size: 12px;
-  color: #0A0A0A;
-  text-decoration: none;
-  transition: color 0.2s ease;
-  font-family: 'Poppins', sans-serif;
-  padding: 8px 12px;
-  min-height: 44px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-  @media (max-width: 767px) {
-    font-size: 14px;
-    min-width: 120px;
-  }
-  
-  @media (min-width: 768px) {
-    font-size: 14px;
-    padding: 4px 8px;
   }
   
   &:hover {
@@ -141,34 +131,44 @@ const FooterLink = styled(Link)`
 `;
 
 const Footer: React.FC = () => {
-  const currentYear = new Date().getFullYear();
-  
   return (
     <FooterSection>
-      <Container>
-        <FooterLeftLinks>
-          <FooterLink href="/contact">Contact</FooterLink>
-          <FooterLink href="/privacy-policy">Privacy Policy</FooterLink>
-          <FooterLink href="/terms-of-service">Terms of Service</FooterLink>
-        </FooterLeftLinks>
+      <BentoGrid>
+        <BentoBox>
+          <LogoWrapper>
+            <Image
+              src="/images/surgeforsite.png"
+              alt="SURGE+"
+              width={150}
+              height={40}
+              priority
+              style={{ objectFit: 'contain' }}
+            />
+          </LogoWrapper>
+        </BentoBox>
         
-        <LogoWrapper>
-          <Image
-            src="/images/surgeforsite.png"
-            alt="SURGE+"
-            width={150}
-            height={40}
-            priority
-            style={{ objectFit: 'contain' }}
-          />
-        </LogoWrapper>
+        <BentoBox>
+          <SportsSection>
+            <SportsLabel>Supported Sports:</SportsLabel>
+            <SportsIcons>
+              <span role="img" aria-label="Tennis">🎾</span>
+              <span role="img" aria-label="Basketball">🏀</span>
+              <span role="img" aria-label="Golf">⛳️</span>
+              <span role="img" aria-label="Ping Pong">🏓</span>
+            </SportsIcons>
+          </SportsSection>
+        </BentoBox>
         
-        <FooterRightContent>
-          <Copyright>
-            © {currentYear} SURGE+. All rights reserved.
-          </Copyright>
-        </FooterRightContent>
-      </Container>
+        <BentoBox>
+          <LinksSection>
+            <LinksLabel>Privacy & Terms</LinksLabel>
+            <LinksList>
+              <FooterLink href="/privacy-policy">Privacy Policy</FooterLink>
+              <FooterLink href="/terms-of-service">Terms of Service</FooterLink>
+            </LinksList>
+          </LinksSection>
+        </BentoBox>
+      </BentoGrid>
     </FooterSection>
   );
 };

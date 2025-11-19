@@ -14,8 +14,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "SURGE+ - AI Sports Performance Analysis | Train Smarter",
-  description: "Upload your sports videos and get instant AI-powered technique analysis for Golf, Tennis, Basketball, Pickleball, and Baseball. Track your progress and improve your game with SURGE+.",
+  title: "Surge+ | AI Sports Analysis & Swing Tracker",
+  description: "Join the top 1%. AI-powered video analysis for Tennis, Golf, and Basketball. Improve your form instantly. Download on iOS.",
   keywords: [
     "AI sports analysis",
     "video analysis app",
@@ -37,8 +37,8 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: "SURGE+ - AI Sports Performance Analysis",
-    description: "AI-powered video analysis for athletes. Upload your form, get instant biomechanical feedback, and track your progress across multiple sports.",
+    title: "Surge+ | AI Sports Analysis & Swing Tracker",
+    description: "Join the top 1%. AI-powered video analysis for Tennis, Golf, and Basketball. Improve your form instantly. Download on iOS.",
     url: process.env.NEXT_PUBLIC_SITE_URL || 'https://surge.app',
     siteName: "SURGE+",
     images: [
@@ -54,8 +54,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "SURGE+ - AI Sports Performance Analysis",
-    description: "AI-powered video analysis for athletes. Improve your technique with instant feedback.",
+    title: "Surge+ | AI Sports Analysis & Swing Tracker",
+    description: "Join the top 1%. AI-powered video analysis for Tennis, Golf, and Basketball. Improve your form instantly. Download on iOS.",
     images: ["/images/surge-og-image.png"],
     creator: "@surgeplus",
   },

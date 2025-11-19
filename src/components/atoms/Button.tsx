@@ -100,7 +100,7 @@ const StyledButton = styled.button<{
             &:hover {
               background: ${theme.colors.darkGray};
               transform: translateY(-2px);
-              box-shadow: ${theme.shadows.lg};
+              box-shadow: 0 0 30px rgba(155, 255, 0, 0.6), 0 0 60px rgba(155, 255, 0, 0.3), ${theme.shadows.lg};
             }
             
             &:active {
