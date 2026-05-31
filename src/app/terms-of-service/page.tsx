@@ -7,11 +7,11 @@ const Container = styled.div`
   max-width: 1000px;
   margin: 0 auto;
   padding: 80px 16px;
-  
+
   @media (max-width: 767px) {
     padding: 40px 16px;
   }
-  
+
   @media (min-width: 768px) {
     padding: 120px 24px;
   }
@@ -52,7 +52,7 @@ const ContentWrapper = styled.div`
     font-family: Arial !important;
     word-break: break-word !important;
   }
-  
+
   @media (max-width: 767px) {
     [data-custom-class='title'], [data-custom-class='title'] * {
       font-size: 22px !important;
@@ -70,30 +70,30 @@ const ContentWrapper = styled.div`
     [data-custom-class='link'], [data-custom-class='link'] * {
       font-size: 15px !important;
     }
-    
+
     word-wrap: break-word;
     overflow-wrap: break-word;
     hyphens: auto;
   }
-  
+
   h1, h2, h3 {
     margin-top: 24px;
     margin-bottom: 16px;
   }
-  
+
   ul {
     list-style-type: square;
     margin-left: 20px;
   }
-  
+
   ul > li > ul {
     list-style-type: circle;
   }
-  
+
   ul > li > ul > li > ul {
     list-style-type: square;
   }
-  
+
   ol li {
     font-family: Arial;
   }
@@ -105,292 +105,74 @@ export default function TermsOfService() {
       <Container>
         <ContentWrapper>
           <div data-custom-class="body">
-            <div style={{textAlign: "left"}}>
-              <div className="MsoNormal" data-custom-class="title" style={{lineHeight: 1.5}}>
-                <span className="block-component"><span style={{fontSize: "19px"}}></span></span>
-                <span className="question"><strong><h1>TERMS AND CONDITIONS</h1></strong></span>
-                <span className="statement-end-if-in-editor"></span>
-              </div>
-              <div className="MsoNormal" data-custom-class="subtitle" style={{lineHeight: 1.5}}>
-                <strong>Last updated</strong> <span className="question"><strong>November 05, 2025</strong></span>
-              </div>
-              <div className="MsoNormal" style={{lineHeight: 1.1}}><br/></div>
-              <div style={{lineHeight: 1.5}}><br/></div>
-              <div style={{lineHeight: 1.5}}>
-                <strong><span data-custom-class="heading_1"><h2>AGREEMENT TO OUR LEGAL TERMS</h2></span></strong>
-              </div>
-            </div>
-            
-            <div style={{textAlign: "left"}}>
-              <div className="MsoNormal" id="agreement" style={{lineHeight: 1.5}}>
-                <a id="_6aa3gkhykvst"></a>
-              </div>
-            </div>
-            
-            <div style={{textAlign: "left"}}>
-              <div className="MsoNormal" data-custom-class="body_text" style={{lineHeight: 1.5}}>
-                <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
-                  We are <span className="block-container question question-in-editor" data-id="9d459c4e-c548-e5cb-7729-a118548965d2" data-type="question">Suhas Suren</span>
-                  <span className="block-component"></span>, doing business as <span className="question">Surge+</span>
-                  <span className="block-component"></span><span className="statement-end-if-in-editor"></span> (<span className="block-component"></span>"<strong>Company</strong>," "<strong>we</strong>," "<strong>us</strong>," "<strong>our</strong>"<span className="statement-end-if-in-editor"></span>)
-                  <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
-                    <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
-                      <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
-                        <span className="question"><span className="block-component"></span></span>
-                        <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
-                          <span className="block-component"></span>
-                        </span>, a company registered in<span className="block-component"></span><span className="block-component"></span> <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
-                          <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
-                            <span className="question">India</span>
-                            <span className="statement-end-if-in-editor">
-                              <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
-                                <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
-                                  <span className="statement-end-if-in-editor"></span>
-                                </span>
-                              </span>
-                            </span>
-                          </span>
-                        </span> at <span className="question">Bhudigere Cross</span><span className="block-component"></span>
-                      </span>
-                    </span>, <span className="question">Bengaluru</span>
-                  </span>
-                </span>
-                <span style={{fontSize: "15px"}}>
-                  <span data-custom-class="body_text">
-                    <span style={{fontSize: "15px"}}>
-                      <span data-custom-class="body_text">
-                        <span style={{color: "rgb(89, 89, 89)"}}>
-                          <span className="block-component"></span>, <span className="question">Karnataka</span>
-                          <span className="statement-end-if-in-editor"></span>
-                          <span className="block-component"></span> <span className="question">560067</span>
-                          <span className="statement-end-if-in-editor"></span>
-                        </span>
-                      </span>
-                    </span>
-                  </span>
-                </span>
-                <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
-                  <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
-                    <span className="else-block"></span>
-                  </span>
-                </span>
-                <span className="statement-end-if-in-editor">.</span>
-                <span className="block-component"></span>
-              </div>
-            </div>
-            
-            <div style={{lineHeight: 1}}><br/></div>
-            
-            <div style={{textAlign: "left"}}>
-              <div className="MsoNormal" data-custom-class="body_text" style={{lineHeight: 1.5}}>
-                <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
-                  We operate <span className="block-component"></span>the website <span style={{color: "rgb(0, 58, 250)"}}>
-                    <span className="question"><a target="_blank" data-custom-class="link" href="http://www.surgeplus.app">http://www.surgeplus.app</a></span>
-                  </span> (the <span className="block-component"></span>"<strong>Site</strong>"<span className="statement-end-if-in-editor"></span>)
-                  <span className="block-component"></span>, <span className="statement-end-if-in-editor"></span>
-                  <span className="block-component"></span>the mobile application <span className="question">Surge+</span> (the <span className="block-component"></span>"<strong>App</strong>"<span className="statement-end-if-in-editor"></span>)
-                  <span className="statement-end-if-in-editor"></span>, as well as any other related products and services that refer or link to these legal terms (the <span className="block-component"></span>"<strong>Legal Terms</strong>"<span className="statement-end-if-in-editor"></span>) (collectively, the <span className="block-component"></span>"<strong>Services</strong>"<span className="statement-end-if-in-editor"></span>).
-                  <span className="block-component"></span>
-                </span>
-              </div>
-              
-              <div className="MsoNormal" style={{lineHeight: 1}}><br/></div>
-              
-              <div className="MsoNormal" data-custom-class="body_text" style={{lineHeight: 1.5}}>
-                <span className="question">1. Description of Service<br/><br/>
+            <div><strong><span style={{fontSize: "26px"}}><span data-custom-class="title"><h1>TERMS AND CONDITIONS</h1></span></span></strong></div>
+            <div><span style={{color: "rgb(127, 127, 127)"}}><strong><span style={{fontSize: "15px"}}><span data-custom-class="subtitle">Last updated June 01, 2026</span></span></strong></span></div>
+            <div style={{lineHeight: 1.5}}><br/></div>
 
-SURGE+ ("the App") is a mobile application that provides sports performance analysis using artificial intelligence. The services ("Service") include, but are not limited to:<br/><br/>
+            <div style={{lineHeight: 1.5}}><strong><span data-custom-class="heading_1"><h2>AGREEMENT TO OUR LEGAL TERMS</h2></span></strong></div>
+            <div style={{lineHeight: 1.5}}><br/></div>
 
-Video Upload and Storage: The ability for users to upload and store video recordings of their athletic performance ("User Content").<br/><br/>
+            <div style={{lineHeight: 1.5}}><span style={{fontSize: "15px", color: "rgb(89, 89, 89)"}}><span data-custom-class="body_text">We are <strong>Suhas Suren</strong>, doing business as <strong>Shot AI</strong> (&ldquo;<strong>Company</strong>,&rdquo; &ldquo;<strong>we</strong>,&rdquo; &ldquo;<strong>us</strong>,&rdquo; &ldquo;<strong>our</strong>&rdquo;), based in India at Bhudigere Cross, Bengaluru, Karnataka 560067.</span></span></div>
+            <div style={{lineHeight: 1.5}}><br/></div>
 
-AI-Powered Analysis: The use of generative AI models, including Google's Gemini models, to analyze User Content and generate data-driven feedback, which may include a "SURGE+ Score," technical strengths, and prioritized areas for improvement ("Analysis").<br/><br/>
+            <div style={{lineHeight: 1.5}}><span style={{fontSize: "15px", color: "rgb(89, 89, 89)"}}><span data-custom-class="body_text">We operate the website <a target="_blank" data-custom-class="link" href="http://www.surgeplus.app"><span style={{color: "rgb(0, 58, 250)"}}>http://www.surgeplus.app</span></a> (the &ldquo;<strong>Site</strong>&rdquo;), the mobile application <strong>Shot AI</strong> (the &ldquo;<strong>App</strong>&rdquo;), and any related products and services that link to these legal terms (the &ldquo;<strong>Legal Terms</strong>&rdquo;) (collectively, the &ldquo;<strong>Services</strong>&rdquo;).</span></span></div>
+            <div style={{lineHeight: 1.5}}><br/></div>
 
-Performance Tracking: The ability for users to log and track their game scores and view their progress over time.<br/><br/>
+            <div style={{lineHeight: 1.5}}><strong><span data-custom-class="heading_1"><h2>1. Description of Service</h2></span></strong></div>
+            <div style={{lineHeight: 1.5}}><span style={{fontSize: "15px", color: "rgb(89, 89, 89)"}}><span data-custom-class="body_text">Shot AI (&ldquo;the App&rdquo;) is a mobile application that provides multi-sport AI swing and form analysis. The Service includes, but is not limited to:</span></span></div>
+            <div style={{lineHeight: 1.5}}><br/></div>
 
-Subscription Access: Access to the Service is provided through auto-renewing subscription plans ("Subscriptions"), which may include a free trial period or special offers.<br/><br/>
+            <ul>
+              <li data-custom-class="body_text" style={{lineHeight: 1.5}}><span style={{fontSize: "15px", color: "rgb(89, 89, 89)"}}><span data-custom-class="body_text"><strong>Video Upload and Storage:</strong> The ability to upload and store video recordings of your athletic performance (&ldquo;User Content&rdquo;).</span></span></li>
+              <li data-custom-class="body_text" style={{lineHeight: 1.5}}><span style={{fontSize: "15px", color: "rgb(89, 89, 89)"}}><span data-custom-class="body_text"><strong>AI-Powered Analysis:</strong> The use of on-device pose detection together with generative AI models, including Google&apos;s Gemini models, to analyze User Content and generate data-driven feedback, which may include a &ldquo;Shot AI Score,&rdquo; technical strengths, and prioritized areas for improvement (&ldquo;Analysis&rdquo;). To produce the Analysis, your uploaded videos are transmitted to Google for processing.</span></span></li>
+              <li data-custom-class="body_text" style={{lineHeight: 1.5}}><span style={{fontSize: "15px", color: "rgb(89, 89, 89)"}}><span data-custom-class="body_text"><strong>Performance Tracking:</strong> The ability to log and track scores and view progress over time.</span></span></li>
+              <li data-custom-class="body_text" style={{lineHeight: 1.5}}><span style={{fontSize: "15px", color: "rgb(89, 89, 89)"}}><span data-custom-class="body_text"><strong>Subscription Access:</strong> Access through auto-renewing subscription plans (&ldquo;Subscriptions&rdquo;), which may include a free trial period or special offers.</span></span></li>
+            </ul>
 
-2. User Content and AI Analysis<br/><br/>
+            <div style={{lineHeight: 1.5}}><br/></div>
+            <div style={{lineHeight: 1.5}}><strong><span data-custom-class="heading_1"><h2>2. User Content and AI Analysis</h2></span></strong></div>
 
-User-Generated Content: You retain all ownership rights to the videos you upload ("User Content").<br/><br/>
+            <div style={{lineHeight: 1.5}}><span style={{fontSize: "15px", color: "rgb(89, 89, 89)"}}><span data-custom-class="body_text"><strong>User-Generated Content.</strong> You retain all ownership rights to the videos you upload (&ldquo;User Content&rdquo;).</span></span></div>
+            <div style={{lineHeight: 1.5}}><br/></div>
 
-License to Us: To provide the Service, you grant SURGE+ a limited, non-exclusive, worldwide, royalty-free license to use, reproduce, modify, and process your User Content solely for the purpose of operating the App, generating your Analysis, and improving our AI models (only if you decide to do this).<br/><br/>
+            <div style={{lineHeight: 1.5}}><span style={{fontSize: "15px", color: "rgb(89, 89, 89)"}}><span data-custom-class="body_text"><strong>License to Us.</strong> To provide the Service, you grant Shot AI a limited, non-exclusive, worldwide, royalty-free license to use, reproduce, modify, and process your User Content solely to operate the App and generate your Analysis. We will use your User Content to improve our AI models only if you separately opt in to that use.</span></span></div>
+            <div style={{lineHeight: 1.5}}><br/></div>
 
-AI Analysis Disclaimer: The "Analysis" (including the "SURGE+ Score") provided by the Service is generated by artificial intelligence. It is intended for informational and educational purposes only and is not a substitute for in-person, professional coaching or medical advice. The Analysis may contain errors or inaccuracies ("hallucinations"). You agree to use the Analysis at your own risk and acknowledge that SURGE+ is not liable for any decisions, actions, or injuries resulting from your reliance on the Analysis.<br/><br/>
+            <div style={{lineHeight: 1.5}}><span style={{fontSize: "15px", color: "rgb(89, 89, 89)"}}><span data-custom-class="body_text"><strong>Transmission to Third-Party AI Providers.</strong> You acknowledge and agree that, to generate your Analysis, your User Content is transmitted to and processed by third-party AI providers (including Google). Your use of the AI features is also subject to those providers&apos; applicable terms.</span></span></div>
+            <div style={{lineHeight: 1.5}}><br/></div>
 
-3. Service "As Is"<br/><br/>
+            <div style={{lineHeight: 1.5}}><span style={{fontSize: "15px", color: "rgb(89, 89, 89)"}}><span data-custom-class="body_text"><strong>AI Analysis Disclaimer.</strong> The Analysis (including the &ldquo;Shot AI Score&rdquo;) is generated by artificial intelligence. It is intended for informational and educational purposes only and is not a substitute for in-person professional coaching or medical advice. The Analysis may contain errors or inaccuracies (&ldquo;hallucinations&rdquo;). You agree to use the Analysis at your own risk and acknowledge that Shot AI is not liable for any decisions, actions, or injuries resulting from your reliance on the Analysis.</span></span></div>
+            <div style={{lineHeight: 1.5}}><br/></div>
 
-The Service is provided on an "as is" and "as available" basis. SURGE+ makes no warranties (express or implied) regarding the reliability, accuracy, or availability of the Service. We do not guarantee that your use of the Service will result in any specific athletic improvement or outcome.</span>
-              </div>
-              
-              <div className="MsoNormal" data-custom-class="body_text" style={{lineHeight: 1.5}}>
-                <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
-                  <span className="statement-end-if-in-editor"></span>
-                </span>
-              </div>
-              
-              <div className="MsoNormal" style={{lineHeight: 1}}><br/></div>
-              
-              <div className="MsoNormal" data-custom-class="body_text" style={{lineHeight: 1.5}}>
-                <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
-                  You can contact us by <span className="block-component"></span>phone at <span className="question">+91 6360855691</span>, email at <span className="question"><a target="_blank" data-custom-class="link" href="mailto:support@surgeplus.app">support@surgeplus.app</a></span>
-                  <span className="block-component"></span>,<span className="statement-end-if-in-editor"></span> or by mail to <span className="question">Bhudigere Cross</span>
-                  <span className="block-component"></span>, <span className="question">Bengaluru</span>
-                  <span className="block-component"></span>, <span className="question">Karnataka</span>
-                  <span className="statement-end-if-in-editor"></span>
-                  <span className="block-component"></span> <span className="question">560067</span>
-                  <span className="statement-end-if-in-editor"></span>
-                  <span className="block-component">
-                    <span className="block-component">, </span>
-                    <span className="question">India</span>
-                    <span className="statement-end-if-in-editor"></span>
-                  </span>.
-                </span>
-              </div>
-              
-              <div className="MsoNormal" style={{lineHeight: 1}}><br/></div>
-              
-              <div className="MsoNormal" data-custom-class="body_text" style={{lineHeight: 1.5}}>
-                <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
-                  These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity (<span className="block-component"></span>"<strong>you</strong>"<span className="statement-end-if-in-editor"></span>), and <span className="question">Suhas Suren</span>, concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms. IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.
-                  <span className="block-component"></span><span className="block-component"></span>
-                </span>
-              </div>
-              
-              <div className="MsoNormal" style={{lineHeight: 1}}><br/></div>
-              
-              <div className="MsoNormal" data-custom-class="body_text" style={{lineHeight: 1.5}}>
-                <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
-                  We will provide you with prior notice of any scheduled changes to the Services you are using. The modified Legal Terms will become effective upon posting or notifying you by <span className="question"><a target="_blank" data-custom-class="link" href="mailto:support@surgeplus.app">support@surgeplus.app</a></span>, as stated in the email message. By continuing to use the Services after the effective date of any changes, you agree to be bound by the modified terms.
-                  <span className="block-component"></span><span className="statement-end-if-in-editor"></span>
-                </span>
-              </div>
-            </div>
-            
-            <div style={{lineHeight: 1}}><br/></div>
-            
-            <div style={{textAlign: "left"}}>
-              <div className="MsoNormal" data-custom-class="body_text" style={{lineHeight: 1.5}}>
-                <span style={{fontSize: "11pt", lineHeight: "16.8667px", color: "rgb(89, 89, 89)"}}>
-                  <span style={{color: "rgb(89, 89, 89)", fontSize: "14.6667px"}}>The Services are intended for users who are at least 13 years of age. All users who are minors in the jurisdiction in which they reside (generally under the age of 18) must have the permission of, and be directly supervised by, their parent or guardian to use the Services. If you are a minor, you must have your parent or guardian read and agree to these Legal Terms prior to you using the Services.</span>
-                </span>
-              </div>
-              
-              <div className="MsoNormal" style={{lineHeight: 1}}><br/></div>
-              
-              <div className="MsoNormal" data-custom-class="body_text" style={{lineHeight: 1.5}}>
-                We recommend that you print a copy of these Legal Terms for your records.
-              </div>
-              
-              <div className="MsoNormal" style={{lineHeight: 1.5}}><br/></div>
-              
-              <div className="MsoNormal" data-custom-class="heading_1" style={{lineHeight: 1.5}}>
-                <strong><h2>TABLE OF CONTENTS</h2></strong>
-              </div>
-              
-              {/* Table of Contents - keeping it brief for space */}
-              <div className="MsoNormal" style={{lineHeight: 1.5}}>
-                <a data-custom-class="link" href="#services"><span data-custom-class="link"><span style={{color: "rgb(0, 58, 250)", fontSize: "15px"}}><span data-custom-class="body_text">1. OUR SERVICES</span></span></span></a>
-              </div>
-              <div className="MsoNormal" style={{lineHeight: 1.5}}>
-                <a data-custom-class="link" href="#contact"><span style={{color: "rgb(0, 58, 250)", fontSize: "15px"}}><span data-custom-class="body_text">28. CONTACT US</span></span></a>
-              </div>
-              
-              <div className="MsoNormal" style={{lineHeight: 1.5}}><br/></div>
-              
-              <div className="MsoNormal" data-custom-class="body_text" style={{lineHeight: 1.5}}>
-                <p style={{fontSize: "14px", color: "#595959", marginBottom: "16px"}}>
-                  For the complete terms and conditions, please refer to the full document above. This includes sections on intellectual property, user responsibilities, subscriptions, payment, prohibited activities, privacy policy, dispute resolution, and more.
-                </p>
-              </div>
-              
-              <div className="MsoNormal" data-custom-class="heading_1" id="contact" style={{lineHeight: 1.5}}>
-                <strong><span style={{lineHeight: "115%", fontFamily: "Arial"}}><span style={{fontSize: "19px", lineHeight: 1.5}}><h2>28. CONTACT US</h2></span></span></strong>
-              </div>
-              
-              <div className="MsoNormal" data-custom-class="body_text" style={{lineHeight: 1.5}}>
-                <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
-                  In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us at:
-                </span>
-              </div>
-              
-              <div className="MsoNormal" style={{lineHeight: 1.5}}><br/></div>
-              
-              <div className="MsoNormal" data-custom-class="body_text" style={{lineHeight: 1.5}}>
-                <span style={{fontSize: "15px"}}>
-                  <span style={{color: "rgb(89, 89, 89)"}}>
-                    <span className="question"><strong>Suhas Suren</strong></span>
-                    <strong><span className="block-component"></span></strong>
-                  </span>
-                </span>
-              </div>
-              
-              <div className="MsoNormal" data-custom-class="body_text" style={{lineHeight: 1.5}}>
-                <span style={{fontSize: "15px"}}>
-                  <span style={{lineHeight: "115%", fontFamily: "Arial", color: "rgb(89, 89, 89)"}}>
-                    <span className="question"><strong><span className="question">Bhudigere Cross</span></strong></span>
-                    <span className="statement-end-if-in-editor"></span>
-                    <span className="block-component"></span>
-                  </span>
-                </span>
-              </div>
-              
-              <div className="MsoNormal" data-custom-class="body_text" style={{lineHeight: 1.5}}>
-                <span style={{fontSize: "15px"}}>
-                  <strong>
-                    <span style={{color: "rgb(89, 89, 89)"}}>
-                      <span className="question">
-                        <span className="block-component"></span>
-                        <span className="question">Bengaluru</span>
-                        <span className="statement-end-if-in-editor"></span>
-                      </span>
-                      <span className="block-component"></span>, <span className="question">Karnataka</span>
-                      <span className="statement-end-if-in-editor"></span>
-                      <span className="block-component"></span> <span className="question">560067</span>
-                      <span className="statement-end-if-in-editor"></span>
-                    </span>
-                  </strong>
-                  <strong>
-                    <span style={{color: "rgb(89, 89, 89)"}}>
-                      <span className="block-component"></span>
-                    </span>
-                    <span className="block-component"></span>
-                  </strong>
-                </span>
-              </div>
-              
-              <div className="MsoNormal" data-custom-class="body_text" style={{lineHeight: 1.5}}>
-                <span className="block-component"><strong></strong></span>
-                <span className="question">India</span>
-                <span className="statement-end-if-in-editor"></span>
-                <span className="statement-end-if-in-editor"></span>
-                <span className="statement-end-if-in-editor"><strong></strong></span>
-              </div>
-              
-              <div className="MsoNormal" data-custom-class="body_text" style={{lineHeight: 1.5}}>
-                <strong>
-                  <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
-                    <strong>
-                      <span className="block-component"></span>Phone: <span className="question">+91 6360855691</span>
-                      <span className="statement-end-if-in-editor"></span>
-                    </strong>
-                  </span>
-                </strong>
-              </div>
-              
-              <div className="MsoNormal" data-custom-class="body_text" style={{lineHeight: 1.5}}>
-                <strong>
-                  <span style={{fontSize:"11.0pt",lineHeight:"115%",fontFamily:"Arial",color:"#595959"}}>
-                    <strong>
-                      <span className="question">
-                        <span className="block-component"></span>
-                        <span className="question"><a target="_blank" data-custom-class="link" href="mailto:support@surgeplus.app">support@surgeplus.app</a></span>
-                        <span className="statement-end-if-in-editor"></span>
-                      </span>
-                    </strong>
-                  </span>
-                </strong>
-              </div>
-            </div>
+            <div style={{lineHeight: 1.5}}><strong><span data-custom-class="heading_1"><h2>3. Service &ldquo;As Is&rdquo;</h2></span></strong></div>
+            <div style={{lineHeight: 1.5}}><span style={{fontSize: "15px", color: "rgb(89, 89, 89)"}}><span data-custom-class="body_text">The Service is provided on an &ldquo;as is&rdquo; and &ldquo;as available&rdquo; basis. Shot AI makes no warranties (express or implied) regarding the reliability, accuracy, or availability of the Service. We do not guarantee that your use of the Service will result in any specific athletic improvement or outcome.</span></span></div>
+            <div style={{lineHeight: 1.5}}><br/></div>
+
+            <div style={{lineHeight: 1.5}}><strong><span data-custom-class="heading_1"><h2>4. Subscriptions, Billing, and Cancellation</h2></span></strong></div>
+            <div style={{lineHeight: 1.5}}><span style={{fontSize: "15px", color: "rgb(89, 89, 89)"}}><span data-custom-class="body_text">Subscriptions are auto-renewing and billed through your Apple App Store account. Payment is charged at confirmation of purchase or, where a free trial applies, at the end of the trial period unless cancelled at least 24 hours before it ends. Subscriptions renew automatically unless cancelled at least 24 hours before the end of the current period. You can manage or cancel subscriptions in your Apple account settings; deleting the App does not cancel a subscription. Any unused portion of a free trial is forfeited when you purchase a subscription, where applicable.</span></span></div>
+            <div style={{lineHeight: 1.5}}><br/></div>
+
+            <div style={{lineHeight: 1.5}}><strong><span data-custom-class="heading_1"><h2>5. Eligibility and Minors</h2></span></strong></div>
+            <div style={{lineHeight: 1.5}}><span style={{fontSize: "15px", color: "rgb(89, 89, 89)"}}><span data-custom-class="body_text">The Services are intended for users at least 13 years of age. Any user who is a minor in their jurisdiction (generally under 18) must have the permission of, and be supervised by, a parent or guardian. If you are a minor, your parent or guardian must read and agree to these Legal Terms before you use the Services.</span></span></div>
+            <div style={{lineHeight: 1.5}}><br/></div>
+
+            <div style={{lineHeight: 1.5}}><strong><span data-custom-class="heading_1"><h2>6. Agreement</h2></span></strong></div>
+            <div style={{lineHeight: 1.5}}><span style={{fontSize: "15px", color: "rgb(89, 89, 89)"}}><span data-custom-class="body_text">These Legal Terms are a legally binding agreement between you and Suhas Suren concerning your use of the Services. By accessing the Services, you confirm you have read, understood, and agree to be bound by all of these Legal Terms. IF YOU DO NOT AGREE, YOU ARE PROHIBITED FROM USING THE SERVICES AND MUST DISCONTINUE USE.</span></span></div>
+            <div style={{lineHeight: 1.5}}><br/></div>
+
+            <div style={{lineHeight: 1.5}}><span style={{fontSize: "15px", color: "rgb(89, 89, 89)"}}><span data-custom-class="body_text">We will provide notice of scheduled changes to the Services. Modified Legal Terms become effective upon posting or upon notice sent to you. By continuing to use the Services after the effective date, you agree to the modified terms.</span></span></div>
+            <div style={{lineHeight: 1.5}}><br/></div>
+
+            <div id="contact" style={{lineHeight: 1.5}}><strong><span data-custom-class="heading_1"><h2>7. Contact Us</h2></span></strong></div>
+            <div style={{lineHeight: 1.5}}><span style={{fontSize: "15px", color: "rgb(89, 89, 89)"}}><span data-custom-class="body_text">To resolve a complaint or for more information, contact us at:</span></span></div>
+            <div style={{lineHeight: 1.5}}><br/></div>
+
+            <div style={{lineHeight: 1.5}}><span style={{fontSize: "15px"}}><span style={{color: "rgb(89, 89, 89)"}}><span data-custom-class="body_text"><strong>Suhas Suren</strong></span></span></span></div>
+            <div style={{lineHeight: 1.5}}><span style={{fontSize: "15px"}}><span data-custom-class="body_text">Bhudigere Cross</span></span></div>
+            <div style={{lineHeight: 1.5}}><span style={{fontSize: "15px"}}><span style={{color: "rgb(89, 89, 89)"}}><span data-custom-class="body_text">Bengaluru, Karnataka 560067</span></span></span></div>
+            <div style={{lineHeight: 1.5}}><span style={{fontSize: "15px"}}><span data-custom-class="body_text">India</span></span></div>
+            <div style={{lineHeight: 1.5}}><span style={{fontSize: "15px"}}><span data-custom-class="body_text">Phone: +91 6360855691</span></span></div>
+            <div style={{lineHeight: 1.5}}><span style={{fontSize: "15px"}}><span data-custom-class="body_text"><a target="_blank" data-custom-class="link" href="mailto:support@surgeplus.app">support@surgeplus.app</a></span></span></div>
           </div>
         </ContentWrapper>
       </Container>
