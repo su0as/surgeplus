@@ -1,13 +1,5 @@
-import Hero from '@/components/sections/NewHero';
-import Footer from '@/components/sections/Footer';
+import ShotAIHome from '@/components/sections/ShotAIHome';
 
 export default function Home() {
-  return (
-    <>
-      <main id="main-content">
-        <Hero />
-      </main>
-      <Footer />
-    </>
-  );
+  return <ShotAIHome />;
 }
